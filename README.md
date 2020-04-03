@@ -11,5 +11,7 @@ You need a Windows 10 pro or entreprise with version 1903, with windows containe
 ## How to get the built files ?
 
 Using docker create allows to copy the files without starting the container
-```docker create cvila84/docker-cli-builder
-docker cp <id>:C:\<build_path> .```
+```
+docker create cvila84/docker-cli-builder
+docker cp <id>:C:\<build_path> .
+```
