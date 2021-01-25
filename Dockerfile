@@ -3,7 +3,7 @@ FROM mcr.microsoft.com/windows/servercore:1903
 
 ENV GOVERSION 1.13.15
 ENV DEPVERSION v0.4.1
-ENV DOCKER_VERSION 20.10.1
+ENV DOCKER_VERSION 20.10.2
 
 ENV chocolateyUseWindowsCompression false
 RUN powershell iex(iwr -useb https://chocolatey.org/install.ps1)
