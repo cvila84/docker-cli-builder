@@ -13,5 +13,5 @@ You need a Windows 10 pro or entreprise with version 1903, with windows containe
 Using docker create allows to copy the files without starting the container
 ```
 docker create cvila84/docker-cli-builder
-docker cp <id>:C:\<build_path> .
+docker cp <id>:C:\gopath\src\github.com\docker\cli\build\docker.exe .
 ```
